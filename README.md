@@ -1,5 +1,7 @@
 # Hygieia Jenkins Build Collector
 
+Jenkins build collector for the Hygieia DevOps Dashboard.  Supports the use of Jenkins 2.0 pipeline and the Jenkins Folders plugin.
+
 ## Python Requirements
 
 * json
