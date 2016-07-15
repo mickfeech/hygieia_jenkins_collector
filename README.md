@@ -32,3 +32,11 @@ password=dbpass
 [hygieia]
 api_url=http://servername:port/api
 ```
+
+## Uses
+
+Setup a cronjob to regularly gather jenkins build data
+
+```
+*/15 * * * * /home/hygieia/hygieia_jenkins_collector.py >/dev/null 2>&1
+```
